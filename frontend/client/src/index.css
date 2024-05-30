@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min-w-custom {
+    min-width: 600px;
+  }
