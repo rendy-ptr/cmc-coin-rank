@@ -1,7 +1,11 @@
+const path = require("path");
+require("dotenv").config({
+  path: path.join(__dirname, "../.env"),
+});
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 const app = express();
 app.use(cors());
@@ -19,7 +23,7 @@ app.get("/api/cryptocurrency", async (req, res) => {
         headers: {
           "Content-Type": "application/json",
           "Access-Control-Allow-Origin": "*",
-          "X-CMC_PRO_API_KEY": "9b628ba8-a442-46c8-8aad-a90ba0d69bb7",
+          "X-CMC_PRO_API_KEY": process.env.COIN_MARKET_CAP_API_KEY,
         },
       }
     );
