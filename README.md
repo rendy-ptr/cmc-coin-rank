@@ -35,5 +35,5 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Enter your API in `.env` For Example `.env.example`
    ```
-   X-CMC_PRO_API_KEY = "ENTER YOUR API";
+   COIN_MARKET_CAP_API_KEY = "ENTER YOUR API";
    ```
