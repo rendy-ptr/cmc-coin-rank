@@ -1,4 +1,4 @@
-This project is to display a list of coins that have been listed on the Coin Market Cap
+This project is to display a list of coins that have been listed on the Coin Market Cap (CMC)
  ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
